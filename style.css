@@ -1,0 +1,61 @@
+body {
+    display: inline-block;
+    background-color: rgb(135, 172, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+
+.birthday {
+    color: rgb(199, 153, 83);
+}
+
+.form button{
+    position: absolute;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    padding: 2px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+.form button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#email {
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+#name {
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+.next-page-button {
+    position: absolute;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    padding: 2px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.next-page-button:hover {
+    font-size: 1.2em;
+}
+
+.next-page-button:active {
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+}
